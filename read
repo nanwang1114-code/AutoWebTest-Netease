@@ -1,2 +1,11 @@
 # AutoWebTest-Netease
-自动化测试网易云网页版功能
+
+自动化测试网易云网页版功能。
+
+## 运行测试
+
+```bash
+python run_tests.py
+```
+
+每次运行后会在 `logs/` 目录生成运行日志，并在 `reports/` 目录生成最新的 JSON 与 Markdown 测试报告，包含错误情况以及测试用例通过数量和比例。
